@@ -6,7 +6,7 @@ body {
 }
 
 .header {
-    width: 700px;
+    width: 1000px;
     height: 150px;
     background: url("42z58PICPhN.jpg") no-repeat;
     background-size: 100% auto;
@@ -37,9 +37,9 @@ body {
 }
 
 #menu {
-    width: 700px;
+    width: 1000px;
     height: 50px;
-   /* background: #000;*/
+    background: #000;
     margin: 0 auto;
     padding: 0;
     text-align: center;
@@ -58,12 +58,57 @@ body {
     text-decoration: underline;
 }
 
-.left {
-    width: 300px;
-    height: 500px;
-    margin: -500px 0;
-    padding: -800px;
-    background: url("54fbb2fb43166d229c374145422309f79152d29b.jpg") no-repeat;
+.botom {
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto 0 auto;
+    background: #ffffff;
     background-size: 100% auto;
 }
 
+.left {
+    width: 200px;
+    height: 200px;
+    /*padding: 100px;*/
+    background: url("u=1178273833,1627715313&fm=21&gp=0.jpg");
+    margin: 0 100px;
+    position: relative;
+    top: 400px;
+}
+
+.mid {
+    width: 200px;
+    height: 200px;
+    /*padding: 100px;*/
+    background: url("u=1178273833,1627715313&fm=21&gp=0.jpg");
+    margin: 0 400px;
+    position: relative;
+    top: 200px;
+}
+
+.right {
+    width: 200px;
+    height: 200px;
+    /*padding: 100px;*/
+    background: url("u=1178273833,1627715313&fm=21&gp=0.jpg");
+    margin: 0 700px;
+    position: relative;
+    top: 0px;
+}
+
+#menu1 {
+    width: 1000px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+#menu1>li {
+    ist-style: circle;
+    color: RGB(0,255,0);
+    display: inline-block;
+    height: 200px;
+    line-height: 50px;
+    margin: 0 150px;
+}
